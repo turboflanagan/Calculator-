@@ -131,6 +131,7 @@ class Engine {
     func clearDisplay() {
         
         self.displayTotal = self.displayZero
+        self.delegate.engineTotalDidChange(Float(self.displayTotal)!)
     }
     
     //MARK:--- Private Functions ---

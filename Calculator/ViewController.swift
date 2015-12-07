@@ -50,9 +50,9 @@ class ViewController: UIViewController, EngineDelegate {
     }
     
     
-    @IBAction func percentButtonTouched(sender: AnyObject) {
-        self.engine?.
-    }
+//    @IBAction func percentButtonTouched(sender: AnyObject) {
+//        self.engine?.
+//    }
     @IBAction func nineButtonTouched(sender: AnyObject) {
         self.engine?.addDigit(9)
     }
